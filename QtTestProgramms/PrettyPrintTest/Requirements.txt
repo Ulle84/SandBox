@@ -1,0 +1,4 @@
+- clean whitespace at end
+- do indentation right (two spaces per indentation level)
+- opening and closing bracked should be on one single line
+- operators should be seperated by space

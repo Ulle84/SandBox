@@ -1,0 +1,6 @@
+* format in conversion for example: %02d
+* \n -> split into 2 diags?
+* checkbox -> append old code
+* avoid following: ... uiIndex << ""); -> trailing empty string
+* ViStop-Macros
+* Bug: Commata in String leads to miscount of parameters -> Diag(DIAG_TRACE, GetAcqChannel(), "%s - channel %d: Command is %s (ActorNo=%d), called with parameter (%s).\n", __FUNCTION__, GetAcqChannel(), szActor, iActorNo, szParameter);

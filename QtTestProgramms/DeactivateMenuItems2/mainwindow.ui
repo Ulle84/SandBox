@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>836</width>
+    <height>338</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <widget class="QTreeWidget" name="treeWidget">
+      <column>
+       <property name="text">
+        <string notr="true">1</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>generate tree</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>836</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuMore">
+     <property name="title">
+      <string>more</string>
+     </property>
+     <widget class="QMenu" name="menuEven_more">
+      <property name="title">
+       <string>even more</string>
+      </property>
+      <widget class="QMenu" name="menuEven_much_more">
+       <property name="title">
+        <string>even much more </string>
+       </property>
+       <widget class="QMenu" name="menuThis_is_too_much">
+        <property name="title">
+         <string>this is too much</string>
+        </property>
+        <addaction name="actionThis_is_too_much_1"/>
+        <addaction name="actionThis_is_too_much_2"/>
+       </widget>
+       <addaction name="actionEven_much_more_1"/>
+       <addaction name="actionEven_much_more_2"/>
+       <addaction name="menuThis_is_too_much"/>
+      </widget>
+      <addaction name="actionEven_more_1"/>
+      <addaction name="actionEven_mor2"/>
+      <addaction name="menuEven_much_more"/>
+      <addaction name="actionEven_more_3"/>
+     </widget>
+     <addaction name="actionMore_1"/>
+     <addaction name="actionMore_2"/>
+     <addaction name="menuEven_more"/>
+     <addaction name="actionMore_3"/>
+     <addaction name="actionEven_more_2"/>
+    </widget>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionSave_as"/>
+    <addaction name="menuMore"/>
+   </widget>
+   <widget class="QMenu" name="menuService">
+    <property name="title">
+     <string>Service</string>
+    </property>
+    <widget class="QMenu" name="menuSubservice">
+     <property name="title">
+      <string>subservice</string>
+     </property>
+     <addaction name="actionSubservice_3"/>
+     <addaction name="actionSubservice_4"/>
+    </widget>
+    <addaction name="actionService_1"/>
+    <addaction name="actionService_2"/>
+    <addaction name="menuSubservice"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuService"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionSave_as">
+   <property name="text">
+    <string>Save as..</string>
+   </property>
+  </action>
+  <action name="actionMore_1">
+   <property name="text">
+    <string>more 1</string>
+   </property>
+  </action>
+  <action name="actionMore_2">
+   <property name="text">
+    <string>more 2</string>
+   </property>
+  </action>
+  <action name="actionEven_more_1">
+   <property name="text">
+    <string>even more 1</string>
+   </property>
+  </action>
+  <action name="actionEven_mor2">
+   <property name="text">
+    <string>even more 2</string>
+   </property>
+  </action>
+  <action name="actionEven_much_more_1">
+   <property name="text">
+    <string>even much more 1</string>
+   </property>
+  </action>
+  <action name="actionEven_much_more_2">
+   <property name="text">
+    <string>even much more 2</string>
+   </property>
+  </action>
+  <action name="actionThis_is_too_much_1">
+   <property name="text">
+    <string>this is too much 1</string>
+   </property>
+  </action>
+  <action name="actionThis_is_too_much_2">
+   <property name="text">
+    <string>this is too much 2</string>
+   </property>
+  </action>
+  <action name="actionEven_more_3">
+   <property name="text">
+    <string>even more 3</string>
+   </property>
+  </action>
+  <action name="actionMore_3">
+   <property name="text">
+    <string>more 3</string>
+   </property>
+  </action>
+  <action name="actionEven_more_2">
+   <property name="text">
+    <string>even more 2</string>
+   </property>
+  </action>
+  <action name="actionService_1">
+   <property name="text">
+    <string>service 1</string>
+   </property>
+  </action>
+  <action name="actionService_2">
+   <property name="text">
+    <string>service 2</string>
+   </property>
+  </action>
+  <action name="actionSubservice_3">
+   <property name="text">
+    <string>subservice 3</string>
+   </property>
+  </action>
+  <action name="actionSubservice_4">
+   <property name="text">
+    <string>subservice 3</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

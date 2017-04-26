@@ -1,0 +1,7 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+<qresource prefix="/forms">
+<file>Form.ui</file>
+<file>AlternativeForm.ui</file>
+</qresource>
+</RCC>

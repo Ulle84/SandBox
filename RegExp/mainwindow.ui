@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>680</width>
+    <height>615</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="6" column="0">
+     <widget class="QPushButton" name="pushButtonSearchAndReplace">
+      <property name="text">
+       <string>search and replace in selected files</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButtonAppendLine">
+        <property name="text">
+         <string>append line</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonClearTable">
+        <property name="text">
+         <string>clear table</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonResizeTable">
+        <property name="text">
+         <string>resize table</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="4" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="pushButtonSaveTable">
+        <property name="text">
+         <string>save table</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonLoadTable">
+        <property name="text">
+         <string>load table</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="pushButtonSelectFiles">
+        <property name="text">
+         <string>select file(s)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonClearFileList">
+        <property name="text">
+         <string>clear list</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <widget class="QListWidget" name="listWidget"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head&gt;&lt;style&gt;table {
+	border-spacing: 0px;
+}
+td {
+	padding: 7px 3px 7px 3px;
+	vertical-align: top;
+}
+&lt;/style&gt;&lt;/head&gt;&lt;body&gt;
+	&lt;tr&gt;
+		&lt;td&gt;yes&lt;/td&gt;
+		&lt;td&gt;use regular expressions&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;no&lt;/td&gt;
+		&lt;td&gt;do not use regular expressions&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="rowCount">
+       <number>0</number>
+      </property>
+      <property name="columnCount">
+       <number>3</number>
+      </property>
+      <column>
+       <property name="text">
+        <string>replace</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>by</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>use regular expression?</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>680</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

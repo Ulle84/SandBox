@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="ViParameterFileDocumentation.xsl"?>
+<ViParameter>
+  <ViAcquiGenICam Version="2">
+    <WatchDog>
+      <WatchInterval Type="integer" Value="1"/>
+      <QuiteRestart Type="bool" Value="false"/>
+      <ReportTemperatur Type="bool" Value="true"/>
+      <ReportStatistics Type="bool" Value="false"/>
+    </WatchDog>
+    <Camera UseDevice="true">
+      <DeviceName Value="ViAcquiGenICam0" Type="string" Description="Name des Geräts" Editor="FREETEXT" />
+      <AcquiChannel Value="ViAcquiGenICam0" Type="string" Description="An welchem Acquisitionskanal soll sich die Kamera anmelden?" Editor="FREETEXT" />
+      <SerialNumber Value="ViAcquiGenICam0" Type="string" Description="Seriennummer der Kamera. Bei DONT_CARE wird die erste freie Kamera akzeptiert, die gefunden wird." Editor="FREETEXT" Parameter1="Weiterer Parameter" Parameter2="Weiterer Parameter"/>
+      <ROI Description="Region of interest">
+        <x Value="1" Type="integer" />
+        <y Value="1" Type="integer" />
+        <w Value="1" Type="integer" />
+        <h Value="1" Type="integer" />
+      </ROI>
+    </Camera>
+  </ViAcquiGenICam>
+</ViParameter>

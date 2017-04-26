@@ -1,0 +1,12 @@
+# options for AStyle
+--indent=spaces=2
+--style=allman
+--add-brackets
+--align-pointer=type
+--align-reference=type
+--indent-col1-comments
+--break-blocks
+--pad-oper
+--pad-header
+--unpad-paren
+--convert-tabs

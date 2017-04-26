@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegExpTable version="1.0">
+    <columHeaders>
+        <column0>replace</column0>
+        <column1>by</column1>
+        <column2>use regular expression?</column2>
+    </columHeaders>
+    <row column0="pushButton" column1="pushButtonSelectFiles" column2="no"/>
+    <row column0="pushButtonSelectFiles_" column1="pushButton_" column2="no"/>
+    <row column0="pushButton_5" column1="pushButtonClearFileList" column2="no"/>
+    <row column0="pushButton_2" column1="pushButtonAppendLine" column2="no"/>
+    <row column0="pushButton_3" column1="pushButtonClearTable" column2="no"/>
+    <row column0="pushButton_6" column1="pushButtonResizeTable" column2="no"/>
+    <row column0="pushButton_7" column1="pushButtonSaveTable" column2="no"/>
+    <row column0="pushButton_8" column1="pushButtonLoadTable" column2="no"/>
+    <row column0="pushButton_4" column1="pushButtonSearchAndReplace" column2="no"/>
+</RegExpTable>
